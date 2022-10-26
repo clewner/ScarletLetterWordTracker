@@ -16,6 +16,7 @@ while addition != "none":
 
 url = "https://www.gutenberg.org/files/25344/25344-h/25344-h.htm"
 
+#Would need to be replaced with directory to chromedriver on device
 s = Service('C:/Users/isaac/Downloads/chromedriver_win32/chromedriver.exe')
 driver = webdriver.Chrome(service=s)
 
